@@ -40,7 +40,7 @@ public class Main {
             System.out.println("10. Listar Todos os Palestrantes");
             System.out.println("11. Calcular Faturamento Total");
             System.out.println("12. Taxa Média de Ocupação");
-            System.out.println("13. Atividade com Maior Ocupação");
+            System.out.println("13. Atividade com Maior/Menor Ocupação");
             System.out.println("0. Sair");
             System.out.println("==================================================");
             System.out.print("Escolha uma opção: ");
@@ -235,9 +235,57 @@ public class Main {
                     break;
 
                 case 7:
-                    /* CASO 7: AVISO SOBRE FLUXO DE AVALIAÇÃO */
-                    System.out.println("--- ADICIONAR AVALIAÇÃO ---");
-                    System.out.println("Operação validada e executada diretamente na classe Minicurso.");
+                    /* CASO 7: AVALIAÇÃO DE MINICURSO */
+                    /* Fluxo: busca a atividade pelo código, verifica se é um Minicurso (instanceof),
+                       coleta a nota do usuário, chama adicionarAvaliacao() e exibe a média atualizada */
+                    try {
+                        System.out.println("--- ADICIONAR AVALIAÇÃO EM MINICURSO ---");
+                        System.out.print("Código do Minicurso: ");
+                        String codigoAval = scanner.nextLine();
+
+                        /* Percorre a lista de atividades para localizar a que corresponde ao código digitado */
+                        Atividade atividadeAval = null;
+                        for (Atividade existente : sistema.getAtividades()) {
+                            if (existente.getCodigo().equalsIgnoreCase(codigoAval)) {
+                                atividadeAval = existente;
+                                break;
+                            }
+                        }
+
+                        /* Valida se a atividade foi encontrada */
+                        if (atividadeAval == null) {
+                            System.out.println("Erro: Atividade não localizada.");
+                            break;
+                        }
+
+                        /* Usa instanceof para verificar se a atividade é do tipo Minicurso antes de avaliar
+                           Pois só o Minicurso possui o vetor de avaliações e os métodos relacionados */
+                        if (!(atividadeAval instanceof Minicurso)) {
+                            System.out.println("Erro: Esta atividade não é um Minicurso. Apenas Minicursos podem ser avaliados.");
+                            break;
+                        }
+
+                        /* Faz o cast para acessar os métodos específicos da subclasse Minicurso */
+                        Minicurso minicursoAval = (Minicurso) atividadeAval;
+
+                        System.out.print("Nota (0 a 10): ");
+                        double nota = Double.parseDouble(scanner.nextLine());
+
+                        /* Chama o método de adição de nota no vetor de avaliações do Minicurso */
+                        if (minicursoAval.adicionarAvaliacao(nota)) {
+                            /* Exibe a média calculada com base em todas as notas inseridas até agora */
+                            System.out.println("Sucesso: Avaliação registrada!");
+                            System.out.println("Média atual do Minicurso: " + String.format("%.2f", minicursoAval.calcularMediaAvaliacoes()));
+                        } else {
+                            System.out.println("Aviso: Limite de 5 avaliações atingido para este Minicurso.");
+                        }
+                    } catch (NumberFormatException e) {
+                        /* Captura o erro quando o usuário digita texto no lugar da nota numérica */
+                        System.out.println("Erro: Digite um número válido para a nota.");
+                    } catch (IllegalArgumentException e) {
+                        /* Captura o erro lançado pelo adicionarAvaliacao() se a nota for menor que 0 ou maior que 10 */
+                        System.out.println("Erro de Validação: " + e.getMessage());
+                    }
                     break;
 
                 case 8:
@@ -266,10 +314,15 @@ public class Main {
                     break;
 
                 case 13:
-                    /* CASO 13: LOCALIZAR ATIVIDADE DE MAIOR SUCESSO DE PÚBLICO */
+                    /* CASO 13: RELATÓRIO DE OCUPAÇÃO — EXIBE A ATIVIDADE COM MAIOR E COM MENOR ÍNDICE */
+                    /* Utiliza os dois métodos de análise do SistemaEventos para mostrar os dois extremos */
                     Atividade top = sistema.identificarAtividadeMaiorOcupacao();
+                    Atividade bottom = sistema.identificarAtividadeMenorOcupacao();
                     if (top != null) {
+                        /* Exibe a atividade com o maior percentual de vagas preenchidas */
                         System.out.println("Maior Ocupação: " + top.getTitulo() + " (" + String.format("%.2f", top.obterTaxaOcupacao()) + "%)");
+                        /* Exibe a atividade com o menor percentual de vagas preenchidas */
+                        System.out.println("Menor Ocupação: " + bottom.getTitulo() + " (" + String.format("%.2f", bottom.obterTaxaOcupacao()) + "%)");
                     } else {
                         System.out.println("Nenhuma atividade cadastrada.");
                     }

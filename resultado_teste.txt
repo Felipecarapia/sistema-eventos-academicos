@@ -1,0 +1,531 @@
+﻿
+==================================================
+          SISTEMA DE GEST├O DE EVENTOS            
+==================================================
+1. Cadastrar Participante
+2. Cadastrar Palestrante
+3. Cadastrar Atividade (Palestra/Minicurso/Mesa)
+4. Inscrever Participante em Atividade
+5. Buscar Participante por MatrÝcula
+6. Buscar Palestrante por CPF
+7. Adicionar AvaliaþÒo em Minicurso
+8. Listar Todas as Atividades com OcupaþÒo
+9. Listar Todos os Participantes
+10. Listar Todos os Palestrantes
+11. Calcular Faturamento Total
+12. Taxa MÚdia de OcupaþÒo
+13. Atividade com Maior/Menor OcupaþÒo
+0. Sair
+==================================================
+Escolha uma opþÒo: 
+--- CADASTRAR PARTICIPANTE ---
+CPF: Nome: Email: MatrÝcula: Selecione o Tipo (1 - ESTUDANTE, 2 - PROFISSIONAL, 3 - DOCENTE): 
+Sucesso: Participante cadastrado!
+
+==================================================
+          SISTEMA DE GEST├O DE EVENTOS            
+==================================================
+1. Cadastrar Participante
+2. Cadastrar Palestrante
+3. Cadastrar Atividade (Palestra/Minicurso/Mesa)
+4. Inscrever Participante em Atividade
+5. Buscar Participante por MatrÝcula
+6. Buscar Palestrante por CPF
+7. Adicionar AvaliaþÒo em Minicurso
+8. Listar Todas as Atividades com OcupaþÒo
+9. Listar Todos os Participantes
+10. Listar Todos os Palestrantes
+11. Calcular Faturamento Total
+12. Taxa MÚdia de OcupaþÒo
+13. Atividade com Maior/Menor OcupaþÒo
+0. Sair
+==================================================
+Escolha uma opþÒo: 
+--- CADASTRAR PALESTRANTE ---
+CPF: Nome: Email: TitularizaþÒo (Ex: Mestre, Doutor): ┴rea de EspecializaþÒo: Sucesso: Palestrante cadastrado!
+
+==================================================
+          SISTEMA DE GEST├O DE EVENTOS            
+==================================================
+1. Cadastrar Participante
+2. Cadastrar Palestrante
+3. Cadastrar Atividade (Palestra/Minicurso/Mesa)
+4. Inscrever Participante em Atividade
+5. Buscar Participante por MatrÝcula
+6. Buscar Palestrante por CPF
+7. Adicionar AvaliaþÒo em Minicurso
+8. Listar Todas as Atividades com OcupaþÒo
+9. Listar Todos os Participantes
+10. Listar Todos os Palestrantes
+11. Calcular Faturamento Total
+12. Taxa MÚdia de OcupaþÒo
+13. Atividade com Maior/Menor OcupaþÒo
+0. Sair
+==================================================
+Escolha uma opþÒo: 
+--- CADASTRAR ATIVIDADE ---
+Escolha o tipo (1-Palestra, 2-Minicurso, 3-Mesa Redonda): C¾digo ·nico da Atividade: TÝtulo: Carga Horßria: Capacidade Mßxima: CPF do Palestrante Responsßvel: Sucesso: Atividade adicionada!
+
+==================================================
+          SISTEMA DE GEST├O DE EVENTOS            
+==================================================
+1. Cadastrar Participante
+2. Cadastrar Palestrante
+3. Cadastrar Atividade (Palestra/Minicurso/Mesa)
+4. Inscrever Participante em Atividade
+5. Buscar Participante por MatrÝcula
+6. Buscar Palestrante por CPF
+7. Adicionar AvaliaþÒo em Minicurso
+8. Listar Todas as Atividades com OcupaþÒo
+9. Listar Todos os Participantes
+10. Listar Todos os Palestrantes
+11. Calcular Faturamento Total
+12. Taxa MÚdia de OcupaþÒo
+13. Atividade com Maior/Menor OcupaþÒo
+0. Sair
+==================================================
+Escolha uma opþÒo: 
+--- CADASTRAR ATIVIDADE ---
+Escolha o tipo (1-Palestra, 2-Minicurso, 3-Mesa Redonda): C¾digo ·nico da Atividade: TÝtulo: Carga Horßria: Capacidade Mßxima: CPF do Palestrante Responsßvel: Custo do Material Didßtico (R$): Sucesso: Atividade adicionada!
+
+==================================================
+          SISTEMA DE GEST├O DE EVENTOS            
+==================================================
+1. Cadastrar Participante
+2. Cadastrar Palestrante
+3. Cadastrar Atividade (Palestra/Minicurso/Mesa)
+4. Inscrever Participante em Atividade
+5. Buscar Participante por MatrÝcula
+6. Buscar Palestrante por CPF
+7. Adicionar AvaliaþÒo em Minicurso
+8. Listar Todas as Atividades com OcupaþÒo
+9. Listar Todos os Participantes
+10. Listar Todos os Palestrantes
+11. Calcular Faturamento Total
+12. Taxa MÚdia de OcupaþÒo
+13. Atividade com Maior/Menor OcupaþÒo
+0. Sair
+==================================================
+Escolha uma opþÒo: 
+--- CADASTRAR ATIVIDADE ---
+Escolha o tipo (1-Palestra, 2-Minicurso, 3-Mesa Redonda): C¾digo ·nico da Atividade: TÝtulo: Carga Horßria: Capacidade Mßxima: CPF do Palestrante Responsßvel: Tema da Mesa Redonda: Nome do Moderador: Sucesso: Atividade adicionada!
+
+==================================================
+          SISTEMA DE GEST├O DE EVENTOS            
+==================================================
+1. Cadastrar Participante
+2. Cadastrar Palestrante
+3. Cadastrar Atividade (Palestra/Minicurso/Mesa)
+4. Inscrever Participante em Atividade
+5. Buscar Participante por MatrÝcula
+6. Buscar Palestrante por CPF
+7. Adicionar AvaliaþÒo em Minicurso
+8. Listar Todas as Atividades com OcupaþÒo
+9. Listar Todos os Participantes
+10. Listar Todos os Palestrantes
+11. Calcular Faturamento Total
+12. Taxa MÚdia de OcupaþÒo
+13. Atividade com Maior/Menor OcupaþÒo
+0. Sair
+==================================================
+Escolha uma opþÒo: 
+--- INSCREVER PARTICIPANTE EM ATIVIDADE ---
+MatrÝcula do Participante: C¾digo da Atividade: Sucesso: InscriþÒo efetuada!
+
+==================================================
+          SISTEMA DE GEST├O DE EVENTOS            
+==================================================
+1. Cadastrar Participante
+2. Cadastrar Palestrante
+3. Cadastrar Atividade (Palestra/Minicurso/Mesa)
+4. Inscrever Participante em Atividade
+5. Buscar Participante por MatrÝcula
+6. Buscar Palestrante por CPF
+7. Adicionar AvaliaþÒo em Minicurso
+8. Listar Todas as Atividades com OcupaþÒo
+9. Listar Todos os Participantes
+10. Listar Todos os Palestrantes
+11. Calcular Faturamento Total
+12. Taxa MÚdia de OcupaþÒo
+13. Atividade com Maior/Menor OcupaþÒo
+0. Sair
+==================================================
+Escolha uma opþÒo: 
+--- INSCREVER PARTICIPANTE EM ATIVIDADE ---
+MatrÝcula do Participante: C¾digo da Atividade: Sucesso: InscriþÒo efetuada!
+
+==================================================
+          SISTEMA DE GEST├O DE EVENTOS            
+==================================================
+1. Cadastrar Participante
+2. Cadastrar Palestrante
+3. Cadastrar Atividade (Palestra/Minicurso/Mesa)
+4. Inscrever Participante em Atividade
+5. Buscar Participante por MatrÝcula
+6. Buscar Palestrante por CPF
+7. Adicionar AvaliaþÒo em Minicurso
+8. Listar Todas as Atividades com OcupaþÒo
+9. Listar Todos os Participantes
+10. Listar Todos os Palestrantes
+11. Calcular Faturamento Total
+12. Taxa MÚdia de OcupaþÒo
+13. Atividade com Maior/Menor OcupaþÒo
+0. Sair
+==================================================
+Escolha uma opþÒo: 
+--- INSCREVER PARTICIPANTE EM ATIVIDADE ---
+MatrÝcula do Participante: C¾digo da Atividade: Erro: Falha na inscriþÒo.
+
+==================================================
+          SISTEMA DE GEST├O DE EVENTOS            
+==================================================
+1. Cadastrar Participante
+2. Cadastrar Palestrante
+3. Cadastrar Atividade (Palestra/Minicurso/Mesa)
+4. Inscrever Participante em Atividade
+5. Buscar Participante por MatrÝcula
+6. Buscar Palestrante por CPF
+7. Adicionar AvaliaþÒo em Minicurso
+8. Listar Todas as Atividades com OcupaþÒo
+9. Listar Todos os Participantes
+10. Listar Todos os Palestrantes
+11. Calcular Faturamento Total
+12. Taxa MÚdia de OcupaþÒo
+13. Atividade com Maior/Menor OcupaþÒo
+0. Sair
+==================================================
+Escolha uma opþÒo: 
+--- CADASTRAR PARTICIPANTE ---
+CPF: Nome: Email: MatrÝcula: Selecione o Tipo (1 - ESTUDANTE, 2 - PROFISSIONAL, 3 - DOCENTE): 
+Erro: MatrÝcula jß existente.
+
+==================================================
+          SISTEMA DE GEST├O DE EVENTOS            
+==================================================
+1. Cadastrar Participante
+2. Cadastrar Palestrante
+3. Cadastrar Atividade (Palestra/Minicurso/Mesa)
+4. Inscrever Participante em Atividade
+5. Buscar Participante por MatrÝcula
+6. Buscar Palestrante por CPF
+7. Adicionar AvaliaþÒo em Minicurso
+8. Listar Todas as Atividades com OcupaþÒo
+9. Listar Todos os Participantes
+10. Listar Todos os Palestrantes
+11. Calcular Faturamento Total
+12. Taxa MÚdia de OcupaþÒo
+13. Atividade com Maior/Menor OcupaþÒo
+0. Sair
+==================================================
+Escolha uma opþÒo: 
+--- CADASTRAR PALESTRANTE ---
+CPF: Nome: Email: TitularizaþÒo (Ex: Mestre, Doutor): ┴rea de EspecializaþÒo: Erro: CPF jß cadastrado.
+
+==================================================
+          SISTEMA DE GEST├O DE EVENTOS            
+==================================================
+1. Cadastrar Participante
+2. Cadastrar Palestrante
+3. Cadastrar Atividade (Palestra/Minicurso/Mesa)
+4. Inscrever Participante em Atividade
+5. Buscar Participante por MatrÝcula
+6. Buscar Palestrante por CPF
+7. Adicionar AvaliaþÒo em Minicurso
+8. Listar Todas as Atividades com OcupaþÒo
+9. Listar Todos os Participantes
+10. Listar Todos os Palestrantes
+11. Calcular Faturamento Total
+12. Taxa MÚdia de OcupaþÒo
+13. Atividade com Maior/Menor OcupaþÒo
+0. Sair
+==================================================
+Escolha uma opþÒo: 
+--- BUSCAR PARTICIPANTE POR MATR═CULA ---
+Digite a MatrÝcula: Localizado -> Nome: Joao Silva | MatrÝcula: M001
+
+==================================================
+          SISTEMA DE GEST├O DE EVENTOS            
+==================================================
+1. Cadastrar Participante
+2. Cadastrar Palestrante
+3. Cadastrar Atividade (Palestra/Minicurso/Mesa)
+4. Inscrever Participante em Atividade
+5. Buscar Participante por MatrÝcula
+6. Buscar Palestrante por CPF
+7. Adicionar AvaliaþÒo em Minicurso
+8. Listar Todas as Atividades com OcupaþÒo
+9. Listar Todos os Participantes
+10. Listar Todos os Palestrantes
+11. Calcular Faturamento Total
+12. Taxa MÚdia de OcupaþÒo
+13. Atividade com Maior/Menor OcupaþÒo
+0. Sair
+==================================================
+Escolha uma opþÒo: 
+--- BUSCAR PARTICIPANTE POR MATR═CULA ---
+Digite a MatrÝcula: Aviso: Participante nÒo encontrado.
+
+==================================================
+          SISTEMA DE GEST├O DE EVENTOS            
+==================================================
+1. Cadastrar Participante
+2. Cadastrar Palestrante
+3. Cadastrar Atividade (Palestra/Minicurso/Mesa)
+4. Inscrever Participante em Atividade
+5. Buscar Participante por MatrÝcula
+6. Buscar Palestrante por CPF
+7. Adicionar AvaliaþÒo em Minicurso
+8. Listar Todas as Atividades com OcupaþÒo
+9. Listar Todos os Participantes
+10. Listar Todos os Palestrantes
+11. Calcular Faturamento Total
+12. Taxa MÚdia de OcupaþÒo
+13. Atividade com Maior/Menor OcupaþÒo
+0. Sair
+==================================================
+Escolha uma opþÒo: 
+--- BUSCAR PALESTRANTE POR CPF ---
+Digite o CPF: Localizado -> Nome: Dra. Maria Santos | EspecializaþÒo: Computacao
+
+==================================================
+          SISTEMA DE GEST├O DE EVENTOS            
+==================================================
+1. Cadastrar Participante
+2. Cadastrar Palestrante
+3. Cadastrar Atividade (Palestra/Minicurso/Mesa)
+4. Inscrever Participante em Atividade
+5. Buscar Participante por MatrÝcula
+6. Buscar Palestrante por CPF
+7. Adicionar AvaliaþÒo em Minicurso
+8. Listar Todas as Atividades com OcupaþÒo
+9. Listar Todos os Participantes
+10. Listar Todos os Palestrantes
+11. Calcular Faturamento Total
+12. Taxa MÚdia de OcupaþÒo
+13. Atividade com Maior/Menor OcupaþÒo
+0. Sair
+==================================================
+Escolha uma opþÒo: 
+--- BUSCAR PALESTRANTE POR CPF ---
+Digite o CPF: Aviso: Palestrante nÒo encontrado.
+
+==================================================
+          SISTEMA DE GEST├O DE EVENTOS            
+==================================================
+1. Cadastrar Participante
+2. Cadastrar Palestrante
+3. Cadastrar Atividade (Palestra/Minicurso/Mesa)
+4. Inscrever Participante em Atividade
+5. Buscar Participante por MatrÝcula
+6. Buscar Palestrante por CPF
+7. Adicionar AvaliaþÒo em Minicurso
+8. Listar Todas as Atividades com OcupaþÒo
+9. Listar Todos os Participantes
+10. Listar Todos os Palestrantes
+11. Calcular Faturamento Total
+12. Taxa MÚdia de OcupaþÒo
+13. Atividade com Maior/Menor OcupaþÒo
+0. Sair
+==================================================
+Escolha uma opþÒo: 
+--- ADICIONAR AVALIAÃ├O EM MINICURSO ---
+C¾digo do Minicurso: Nota (0 a 10): Sucesso: AvaliaþÒo registrada!
+MÚdia atual do Minicurso: 8,50
+
+==================================================
+          SISTEMA DE GEST├O DE EVENTOS            
+==================================================
+1. Cadastrar Participante
+2. Cadastrar Palestrante
+3. Cadastrar Atividade (Palestra/Minicurso/Mesa)
+4. Inscrever Participante em Atividade
+5. Buscar Participante por MatrÝcula
+6. Buscar Palestrante por CPF
+7. Adicionar AvaliaþÒo em Minicurso
+8. Listar Todas as Atividades com OcupaþÒo
+9. Listar Todos os Participantes
+10. Listar Todos os Palestrantes
+11. Calcular Faturamento Total
+12. Taxa MÚdia de OcupaþÒo
+13. Atividade com Maior/Menor OcupaþÒo
+0. Sair
+==================================================
+Escolha uma opþÒo: 
+--- ADICIONAR AVALIAÃ├O EM MINICURSO ---
+C¾digo do Minicurso: Nota (0 a 10): Sucesso: AvaliaþÒo registrada!
+MÚdia atual do Minicurso: 8,75
+
+==================================================
+          SISTEMA DE GEST├O DE EVENTOS            
+==================================================
+1. Cadastrar Participante
+2. Cadastrar Palestrante
+3. Cadastrar Atividade (Palestra/Minicurso/Mesa)
+4. Inscrever Participante em Atividade
+5. Buscar Participante por MatrÝcula
+6. Buscar Palestrante por CPF
+7. Adicionar AvaliaþÒo em Minicurso
+8. Listar Todas as Atividades com OcupaþÒo
+9. Listar Todos os Participantes
+10. Listar Todos os Palestrantes
+11. Calcular Faturamento Total
+12. Taxa MÚdia de OcupaþÒo
+13. Atividade com Maior/Menor OcupaþÒo
+0. Sair
+==================================================
+Escolha uma opþÒo: 
+--- ADICIONAR AVALIAÃ├O EM MINICURSO ---
+C¾digo do Minicurso: Nota (0 a 10): Erro: Digite um n·mero vßlido para a nota.
+
+==================================================
+          SISTEMA DE GEST├O DE EVENTOS            
+==================================================
+1. Cadastrar Participante
+2. Cadastrar Palestrante
+3. Cadastrar Atividade (Palestra/Minicurso/Mesa)
+4. Inscrever Participante em Atividade
+5. Buscar Participante por MatrÝcula
+6. Buscar Palestrante por CPF
+7. Adicionar AvaliaþÒo em Minicurso
+8. Listar Todas as Atividades com OcupaþÒo
+9. Listar Todos os Participantes
+10. Listar Todos os Palestrantes
+11. Calcular Faturamento Total
+12. Taxa MÚdia de OcupaþÒo
+13. Atividade com Maior/Menor OcupaþÒo
+0. Sair
+==================================================
+Escolha uma opþÒo: 
+--- Lista de Atividades Cadastradas ---
+[Palestra] C¾digo: PAL001 | TÝtulo: Palestra de Inteligencia Artificial
+[Minicurso] C¾digo: MIN001 | TÝtulo: Minicurso de Java
+[Mesa Redonda] C¾digo: MES001 | TÝtulo: Mesa Redonda sobre Tecnologia
+
+==================================================
+          SISTEMA DE GEST├O DE EVENTOS            
+==================================================
+1. Cadastrar Participante
+2. Cadastrar Palestrante
+3. Cadastrar Atividade (Palestra/Minicurso/Mesa)
+4. Inscrever Participante em Atividade
+5. Buscar Participante por MatrÝcula
+6. Buscar Palestrante por CPF
+7. Adicionar AvaliaþÒo em Minicurso
+8. Listar Todas as Atividades com OcupaþÒo
+9. Listar Todos os Participantes
+10. Listar Todos os Palestrantes
+11. Calcular Faturamento Total
+12. Taxa MÚdia de OcupaþÒo
+13. Atividade com Maior/Menor OcupaþÒo
+0. Sair
+==================================================
+Escolha uma opþÒo: 
+--- Lista de Participantes Cadastradas ---
+MatrÝcula: M001 | Nome: Joao Silva
+
+==================================================
+          SISTEMA DE GEST├O DE EVENTOS            
+==================================================
+1. Cadastrar Participante
+2. Cadastrar Palestrante
+3. Cadastrar Atividade (Palestra/Minicurso/Mesa)
+4. Inscrever Participante em Atividade
+5. Buscar Participante por MatrÝcula
+6. Buscar Palestrante por CPF
+7. Adicionar AvaliaþÒo em Minicurso
+8. Listar Todas as Atividades com OcupaþÒo
+9. Listar Todos os Participantes
+10. Listar Todos os Palestrantes
+11. Calcular Faturamento Total
+12. Taxa MÚdia de OcupaþÒo
+13. Atividade com Maior/Menor OcupaþÒo
+0. Sair
+==================================================
+Escolha uma opþÒo: 
+--- Lista de Palestrantes Cadastrados ---
+CPF: 222.222.222-22 | Nome: Dra. Maria Santos
+
+==================================================
+          SISTEMA DE GEST├O DE EVENTOS            
+==================================================
+1. Cadastrar Participante
+2. Cadastrar Palestrante
+3. Cadastrar Atividade (Palestra/Minicurso/Mesa)
+4. Inscrever Participante em Atividade
+5. Buscar Participante por MatrÝcula
+6. Buscar Palestrante por CPF
+7. Adicionar AvaliaþÒo em Minicurso
+8. Listar Todas as Atividades com OcupaþÒo
+9. Listar Todos os Participantes
+10. Listar Todos os Palestrantes
+11. Calcular Faturamento Total
+12. Taxa MÚdia de OcupaþÒo
+13. Atividade com Maior/Menor OcupaþÒo
+0. Sair
+==================================================
+Escolha uma opþÒo: 
+Faturamento Total: R$ 50,00
+
+==================================================
+          SISTEMA DE GEST├O DE EVENTOS            
+==================================================
+1. Cadastrar Participante
+2. Cadastrar Palestrante
+3. Cadastrar Atividade (Palestra/Minicurso/Mesa)
+4. Inscrever Participante em Atividade
+5. Buscar Participante por MatrÝcula
+6. Buscar Palestrante por CPF
+7. Adicionar AvaliaþÒo em Minicurso
+8. Listar Todas as Atividades com OcupaþÒo
+9. Listar Todos os Participantes
+10. Listar Todos os Palestrantes
+11. Calcular Faturamento Total
+12. Taxa MÚdia de OcupaþÒo
+13. Atividade com Maior/Menor OcupaþÒo
+0. Sair
+==================================================
+Escolha uma opþÒo: 
+Taxa MÚdia de OcupaþÒo: 2,78%
+
+==================================================
+          SISTEMA DE GEST├O DE EVENTOS            
+==================================================
+1. Cadastrar Participante
+2. Cadastrar Palestrante
+3. Cadastrar Atividade (Palestra/Minicurso/Mesa)
+4. Inscrever Participante em Atividade
+5. Buscar Participante por MatrÝcula
+6. Buscar Palestrante por CPF
+7. Adicionar AvaliaþÒo em Minicurso
+8. Listar Todas as Atividades com OcupaþÒo
+9. Listar Todos os Participantes
+10. Listar Todos os Palestrantes
+11. Calcular Faturamento Total
+12. Taxa MÚdia de OcupaþÒo
+13. Atividade com Maior/Menor OcupaþÒo
+0. Sair
+==================================================
+Escolha uma opþÒo: 
+Maior OcupaþÒo: Minicurso de Java (5,00%)
+Menor OcupaþÒo: Mesa Redonda sobre Tecnologia (0,00%)
+
+==================================================
+          SISTEMA DE GEST├O DE EVENTOS            
+==================================================
+1. Cadastrar Participante
+2. Cadastrar Palestrante
+3. Cadastrar Atividade (Palestra/Minicurso/Mesa)
+4. Inscrever Participante em Atividade
+5. Buscar Participante por MatrÝcula
+6. Buscar Palestrante por CPF
+7. Adicionar AvaliaþÒo em Minicurso
+8. Listar Todas as Atividades com OcupaþÒo
+9. Listar Todos os Participantes
+10. Listar Todos os Palestrantes
+11. Calcular Faturamento Total
+12. Taxa MÚdia de OcupaþÒo
+13. Atividade com Maior/Menor OcupaþÒo
+0. Sair
+==================================================
+Escolha uma opþÒo: 
+Saindo...

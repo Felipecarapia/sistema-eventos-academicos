@@ -121,6 +121,12 @@ public class SistemaEventos {
 
     /* MÉTODOS DE LISTAGEM */
 
+    /* MÉTODO: Retorna uma cópia da lista de atividades para que o código externo possa
+       percorrê-la sem ter acesso direto à lista interna (encapsulamento de coleções) */
+    public List<Atividade> getAtividades() {
+        return new ArrayList<>(atividades);
+    }
+
     public void listarAtividades() {
         System.out.println("--- Lista de Atividades Cadastradas ---");
         for (Atividade a : atividades) {
@@ -168,5 +174,22 @@ public class SistemaEventos {
             }
         }
         return maior;
+    }
+
+    /* MÉTODO: Retorna a atividade que atingiu o menor índice de ocupação */
+    /* Faz o oposto do método anterior: assume que a primeira atividade é a menor
+       e percorre a lista substituindo sempre que encontrar uma taxa ainda menor */
+    public Atividade identificarAtividadeMenorOcupacao() {
+        if (atividades.isEmpty()) {
+            return null;
+        }
+        Atividade menor = atividades.get(0); // Considera a primeira como menor inicialmente
+        for (int i = 1; i < atividades.size(); i++) {
+            /* Se a taxa da atividade atual for menor que a menor registrada, atualiza */
+            if (atividades.get(i).obterTaxaOcupacao() < menor.obterTaxaOcupacao()) {
+                menor = atividades.get(i);
+            }
+        }
+        return menor;
     }
 }
